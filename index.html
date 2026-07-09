@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard Monografi Kelurahan Gadang</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    html, body { height: 100%; }
+    body {
+      font-family: system-ui, sans-serif;
+      background: #f8fafc;
+    }
+
+    /* Navbar tipis di atas, biar ada identitas kelurahan */
+    .topbar {
+      background: #065f46;
+      color: white;
+      padding: 10px 20px;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+    .topbar h1 {
+      font-size: 15px;
+      font-weight: 700;
+    }
+    .topbar p {
+      font-size: 12px;
+      opacity: 0.7;
+    }
+    .topbar-info { flex: 1; }
+
+    /* Iframe mengisi sisa tinggi layar */
+    iframe {
+      width: 100%;
+      height: calc(100vh - 52px);
+      border: none;
+      display: block;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="topbar">
+    <div class="topbar-info">
+      <h1>Dashboard Monografi — Kelurahan Gadang</h1>
+      <p>Kec. Sukun, Kota Malang</p>
+    </div>
+  </div>
+
+  <iframe
+    src="https://script.google.com/macros/s/AKfycbxkKf8nXqzQeOsPBcnJ03N6FO1-nRFOuIbfc9QQrWQpxKB0Sk-tS_aiOCsPQApvBTpZ/exec"
+    title="Dashboard Monografi Kelurahan Gadang"
+    allow="fullscreen">
+  </iframe>
+
+</body>
+</html>
